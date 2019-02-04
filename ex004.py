@@ -1,0 +1,8 @@
+digite = input("Digite qualquer coisa: ")
+print('Qual é o Tipo primitivo desse valor:',type(digite))
+print('É composto por números?',digite.isnumeric())
+print('É composta por letras? ',digite.isalpha())
+print('É composto por letras ou números? ',digite.isalnum())
+print('É composto somente por letras maiúsculas? ',digite.isupper())
+print('É composto por somente espaços? ',digite.isspace())
+print('É composto somente por letras minúsculas? ',digite.islower())
